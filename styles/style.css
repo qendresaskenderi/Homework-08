@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------- */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_header {
+  float: left;
+  width:100%;
+  margin-top: 20px;
+}
+
+.logo {
+  float: left;
+  margin-top: 21px;
+  margin-bottom: 22px;
+}
+
+.main_navigation {
+  float: right;
+}
+
+.main_navigation ul,
+.main_navigation li {
+  float: left;
+}
+
+.container {
+  width: 100%;
+  max-width:1126px;
+  height: 78px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  height: 28px;
+  line-height: 28px;
+  margin-right: 29px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.nav-links li {
+  padding-right:25px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  width: 106px;
+  height: 46px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  float: left;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-orange {
+  margin-left: 14px;
+  line-height: 46px;
+  background-color:#FF9900;
+  color: white;
+}
+
+.btn-ghost {
+  line-height: 44px;
+  border: 1px solid #BCD0E5;
+  color: #173A56;
+}
+
+/* HERO */
+
+.hero{
+  float: left;
+  width: 100%;
+  margin-bottom: 110px;
+}
+
+.hero_text{
+  float: left;
+  width: 50%;
+  margin-top: 113px;
+}
+
+.hero_image{
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.hero_text h1{
+  width: 518px;
+  height: 108px;  
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;   
+  color: #2F281E;
+}
+
+.hero_text p{
+  width: 458px;
+  height: 95px;
+  margin:30px 60px 45px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+}
+
+.hero_text a{
+  width: 175px; 
+  height: 53px;
+  float: left;
+}
+
+.get-started-btn{
+  background: #FF9900;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  border-style: none;
+  margin-right: 30.5px;
+  line-height: 53px;
+  text-align: center;
+}
+  
+.watch-video-btn{
+  color:#FF9900;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: white;
+  line-height: 53px;
+}
+
+.watch-video-btn .icon{
+  margin-right: 8.5px;
+  margin-bottom: -4px;
+}
+
+/*--------FEATURE-----------*/
+
+.feature-title{
+  width: 539px;
+  height: 108px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 54px;
+  margin-left: 25%;  
+}
+
+.columns, .columns-fourth{
+  float: left;
+  height: 178px;
+  width: 240px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 162px;
+}
+
+.columns-fourth{
+  height: 204px;
+}
+
+.feature-item_icon {
+  width: 50px;
+  height: 50px;
+  border-radius:19px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.feature-item_icon.icon-click {
+  background-color: #7752BE;
+  color: white;
+  background-image: url('../images/mouse-pointer-solid.png'); 
+}
+
+.feature-item_icon.icon-surveys {
+  background-color: #FAB005;
+  color: white;
+  background-image: url('../images/stumbleupon-brands.png');
+}
+
+.feature-item_icon.icon-preferences {
+  background-color: #F03E3D;;
+  color: white;
+  background-image: url('../images/heart-solid.png');  
+}
+  
+.feature-item_icon.icon-five-test {
+  background-color: #4DADF7;
+  color: white;
+  background-image: url('../images/hourglass-half-solid.png'); 
+}
+
+.feature-item_text {
+  padding-top: 30px;
+  float:left;
+  text-align: left;
+}
+  
+.feature-item_text h2{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 13px;
+}
+
+.feature-item_text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.feature-btn{
+  display: inline-block;
+  width: 175px;
+  height: 53px;
+  line-height: 57px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #FF9900;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 27px;
+  margin-left: 41%;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
